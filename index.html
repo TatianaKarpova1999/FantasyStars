@@ -44,33 +44,39 @@
                     href="index.html"
                     class="nav-link w-variant-388ec9d6-4e1e-759a-c3c4-06c8935714dd w-nav-link"
                     >Main</a
-                  ><a
-                    href="about.html"
-                    class="nav-link w-variant-388ec9d6-4e1e-759a-c3c4-06c8935714dd w-nav-link"
-                    >About</a
-                  ><a
-                    href="play.html"
-                    class="nav-link w-variant-388ec9d6-4e1e-759a-c3c4-06c8935714dd w-nav-link"
-                    >How to play</a
-                  ><a
-                    href="fantasy.html"
-                    class="nav-link w-variant-388ec9d6-4e1e-759a-c3c4-06c8935714dd w-nav-link"
-                    >Fantasy Games</a
-                  ><a
-                    href="faq.html"
-                    class="nav-link w-variant-388ec9d6-4e1e-759a-c3c4-06c8935714dd w-nav-link"
-                    >FAQ</a
+                  ><button
+                    type="button"
+                    class="nav-link-about nav-link w-variant-388ec9d6-4e1e-759a-c3c4-06c8935714dd w-nav-link"
                   >
+                    About</button
+                  ><button
+                    type="button"
+                    class="nav-link-play nav-link w-variant-388ec9d6-4e1e-759a-c3c4-06c8935714dd w-nav-link"
+                  >
+                    How to play</button
+                  ><button
+                    type="button"
+                    class="nav-link-fantasy nav-link w-variant-388ec9d6-4e1e-759a-c3c4-06c8935714dd w-nav-link"
+                  >
+                    Fantasy Games
+                  </button>
                   <a
                     href="blog.html"
                     class="nav-link w-variant-388ec9d6-4e1e-759a-c3c4-06c8935714dd w-nav-link"
                     >Blog</a
+                  ><button
+                    type="button"
+                    type="button"
+                    class="nav-link-faq nav-link w-variant-388ec9d6-4e1e-759a-c3c4-06c8935714dd w-nav-link"
                   >
-                  <a
-                    href="contacts.html"
-                    class="nav-link w-variant-388ec9d6-4e1e-759a-c3c4-06c8935714dd w-nav-link"
-                    >Contact</a
+                    FAQ
+                  </button>
+                  <button
+                    type="button"
+                    class="nav-link-contact nav-link w-variant-388ec9d6-4e1e-759a-c3c4-06c8935714dd w-nav-link"
                   >
+                    Contact
+                  </button>
                 </div>
               </nav>
               <div class="nav-info">
@@ -120,7 +126,7 @@
               <div class="hero-btns">
                 <a
                   data-wf--primary-button--variant="no-border"
-                  href="contacts.html"
+                  href="#contact"
                   class="animation primary-button bubbly-button w-variant-92c17b19-ee94-0c42-94f4-ca9187bd3540 w-inline-block"
                   ><div>Download app</div>
                 </a>
@@ -131,7 +137,7 @@
       </section>
     </div>
     <main class="page-wrap">
-      <section class="section index-about">
+      <section class="section index-about" id="about">
         <div class="w-layout-blockcontainer container w-container">
           <div class="title-section-wrap animation">
             <h2>About Us</h2>
@@ -340,7 +346,7 @@
                       <div class="body-large color-primary">
                         Building a Winning Fantasy Team: Key Tips and Tricks
                       </div>
-                      <a href="contacts.html" class="read-article-link"
+                      <a href="#contact" class="read-article-link"
                         >Read Article</a
                       >
                     </div>
@@ -360,7 +366,7 @@
                       <div class="body-large color-primary">
                         Tracking Player Stats: How to Make Informed Decisions
                       </div>
-                      <a href="contacts.html" class="read-article-link"
+                      <a href="#contact" class="read-article-link"
                         >Read Article</a
                       >
                     </div>
@@ -380,7 +386,7 @@
                       <div class="body-large color-primary">
                         Mastering Team Balance: The Key to Fantasy Success
                       </div>
-                      <a href="contacts.html" class="read-article-link"
+                      <a href="#contact" class="read-article-link"
                         >Read Article</a
                       >
                     </div>
@@ -499,7 +505,10 @@
         </div>
       </section>
 
-      <section class="section bg-light-blue index-comparison index-work">
+      <section
+        class="section bg-light-blue index-comparison index-work"
+        id="play"
+      >
         <div class="w-layout-blockcontainer container w-container">
           <div class="section-wrap">
             <div class="title-section-wrap animation">
@@ -580,7 +589,10 @@
           </div>
         </div>
       </section>
-      <section class="section bg-light-blue index-comparison fantasy-section">
+      <section
+        class="section bg-light-blue index-comparison fantasy-section"
+        id="fantasy"
+      >
         <div class="w-layout-blockcontainer container w-container">
           <div class="section-wrap">
             <!-- Title and Description Section -->
@@ -649,7 +661,7 @@
         </div>
       </section>
 
-      <section class="section index-about tournament-leagues" id="tournament">
+      <section class="section index-about tournament-leagues" id="seasonal">
         <div class="w-layout-blockcontainer container w-container">
           <div class="about-wrap">
             <div class="about-content">
@@ -683,7 +695,7 @@
             </div>
             <div class="about-img animation">
               <img
-                src="images/tour-img.jpg"
+                src="images/tour-1.jpg"
                 alt="Tournament Leagues"
                 class="cover-image"
               />
@@ -727,7 +739,7 @@
             </div>
             <div class="about-img animation">
               <img
-                src="images/tour-img-2.jpg"
+                src="images/tour-2.jpg"
                 alt="Daily Matches"
                 class="cover-image"
               />
@@ -736,7 +748,7 @@
           <div class="hero-btns">
             <a
               data-wf--primary-button--variant="no-border"
-              href="contacts.html"
+              href="#contact"
               class="animation primary-button bubbly-button w-variant-92c17b19-ee94-0c42-94f4-ca9187bd3540 w-inline-block"
               ><div>Participate</div>
             </a>
@@ -981,7 +993,7 @@
           </div>
         </div>
       </section>
-      <section class="faq-section section">
+      <section class="faq-section section" id="faq">
         <div class="faq-content">
           <div class="section-title animation">
             <h2>Frequently Asked Questions</h2>
@@ -1180,13 +1192,13 @@
         </div>
       </section>
 
-      <section class="section contacts animation" id="contacts">
+      <section class="section contacts animation" id="contact">
         <div class="contacts__wrapper">
           <div class="g-stack-xl">
             <h2 class="headline s tc-white-100">Contact Us</h2>
             <div class="body-text-m tc-white-100">
-              Write your email address and we will contact you as soon as
-              possible.
+              Write us your name and email address and we will contact you as
+              soon as possible.
             </div>
           </div>
           <form
@@ -1249,12 +1261,12 @@
                 >
                   <div class="footer-head">Pages</div>
                   <a href="index.html" class="footer-link">Main</a
-                  ><a href="about.html" class="footer-link">About</a
-                  ><a href="play.html" class="footer-link">How to play</a
-                  ><a href="fantasy.html" class="footer-link">Fantasy Games</a>
-                  <a href="faq.html" class="footer-link">FAQ</a>
+                  ><a href="#about" class="footer-link">About</a
+                  ><a href="#play" class="footer-link">How to play</a
+                  ><a href="#fantasy" class="footer-link">Fantasy Games</a>
+                  <a href="#faq" class="footer-link">FAQ</a>
                   <a href="blog.html" class="footer-link"> Blog</a>
-                  <a href="contacts.html" class="footer-link">Contact</a>
+                  <a href="#contact" class="footer-link">Contact</a>
                 </div>
 
                 <div
@@ -1285,13 +1297,13 @@
                 >
                   <div class="footer-head">Follow Us</div>
                   <div class="">
-                    <a href="contacts.html" class="bottom-link"
+                    <a href="#contact" class="bottom-link"
                       ><img
                         src="images/fb.png"
                         class="follow-link"
                         alt="Facebook"
                     /></a>
-                    <a href="contacts.html" class="bottom-link"
+                    <a href="#contact" class="bottom-link"
                       ><img
                         src="images/tw.png"
                         class="follow-link"

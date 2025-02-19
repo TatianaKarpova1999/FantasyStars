@@ -705,6 +705,7 @@ ul {
     border-radius: 8px;
     padding: 5px 10px;
     transition: background-color .3s;
+    background-color: transparent;
 }
 
 
@@ -1436,7 +1437,7 @@ ul {
 .faq-icon {
     width: 18px;
     height: 18px;
-    transform: rotate(90deg);
+
 }
 
 .faq {
