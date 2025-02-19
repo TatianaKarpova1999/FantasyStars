@@ -869,48 +869,6 @@ ul {
 .hero-section {
     padding-top: 50px;
     padding-bottom: 50px;
-
-    &.about-section {
-        background-image: linear-gradient(#00000086, #00000069), url("../images/about-bg.jpg");
-        background-position: 0 0, 50%;
-        background-repeat: repeat, no-repeat;
-        background-size: auto, cover;
-    }
-
-    &.play-section {
-        background-image: linear-gradient(#00000086, #00000069), url("../images/play-bg.jpg");
-        background-position: 0 0, 50%;
-        background-repeat: repeat, no-repeat;
-        background-size: auto, cover;
-    }
-
-    &.fantasy-section {
-        background-image: linear-gradient(#00000086, #00000069), url("../images/fantasy-bg.jpg");
-        background-position: 0 0, 50%;
-        background-repeat: repeat, no-repeat;
-        background-size: auto, cover;
-    }
-
-    &.faq-section {
-        background-image: linear-gradient(#00000086, #00000069), url("../images/faq-bg.jpg");
-        background-position: 0 0, 50%;
-        background-repeat: repeat, no-repeat;
-        background-size: auto, cover;
-    }
-
-    &.blog-section {
-        background-image: linear-gradient(#00000086, #00000069), url("../images/blog-bg.jpg");
-        background-position: 0 0, 50%;
-        background-repeat: repeat, no-repeat;
-        background-size: auto, cover;
-    }
-
-    &.contact-section {
-        background-image: linear-gradient(#00000086, #00000069), url("../images/contact-bg.jpg");
-        background-position: 0 0, 50%;
-        background-repeat: repeat, no-repeat;
-        background-size: auto, cover;
-    }
 }
 
 .index-work {
@@ -1143,6 +1101,7 @@ ul {
     height: 100%;
     overflow: hidden;
 }
+
 
 #chatInput:focus-visible {
     border: 1px solid #000;
