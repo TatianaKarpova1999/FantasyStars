@@ -1107,7 +1107,6 @@ ul {
 .slide {
     min-width: 100%;
     box-sizing: border-box;
-    padding: 40px;
     border-radius: 10px;
     background-color: #fff;
     min-height: 250px;
@@ -1236,6 +1235,7 @@ ul {
     grid-row-gap: var(--mobile-spacing);
     flex-flow: column;
     width: 100%;
+    row-gap: 20px;
     max-width: 70%;
     margin: 0 auto;
     display: flex;
@@ -1726,6 +1726,7 @@ label {
     & .team-content {
         img {
             width: 100px;
+            height: 100px;
         }
 
     }
@@ -2480,6 +2481,7 @@ label {
         padding-left: 20px;
         padding-right: 20px;
         padding-bottom: 0;
+        width: 100%;
     }
 
     .form {
@@ -2563,10 +2565,6 @@ label {
         grid-row-gap: 10px;
     }
 
-    .review-slider {
-        padding-bottom: 50px;
-    }
-
     .review-info {
         border-right-style: none;
         max-width: none;
@@ -2577,15 +2575,15 @@ label {
 
     .right-arrow {
         bottom: 0;
-        left: 50%;
-        right: 50%;
+        left: 0;
+        right: 0;
         transform: translate(25px);
     }
 
     .left-arrow {
         bottom: 0;
-        left: 50%;
-        right: 50%;
+        left: 0;
+        right: 0;
         transform: translate(-25px);
     }
 
