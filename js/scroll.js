@@ -11,90 +11,46 @@ const buttonFaq = document.querySelector(".nav-link-faq");
 const buttonContact = document.querySelector(".nav-link-contact");
 
 
-const scrollToAbout=()=>{
-      const step = 40;
-      if(elementAbout.offsetTop < window.pageYOffset + step){  
-         document
-                 .documentElement
-                 .scrollTo(0,element.offsetTop );
-      }else{
-         document
-                 .documentElement
-                 .scrollTo(0,window.pageYOffset+step);
-      }
-      if(elementAbout.offsetTop !== window.pageYOffset)requestAnimationFrame(scrollToAbout)
-      
 
+if (buttonAbout) {
+    buttonAbout.addEventListener('click', () => {
+        elementAbout.scrollIntoView(
+            {behavior: "smooth", block: "start", inline: "start"}
+        ) 
+    })
 }
 
 
-const scrollToPlay=()=>{
-    const step = 80;
-    if(elementPlay.offsetTop < window.pageYOffset + step){  
-       document
-               .documentElement
-               .scrollTo(0,element.offsetTop );
-    }else{
-       document
-               .documentElement
-               .scrollTo(0,window.pageYOffset+step);
-    }
-    if(elementPlay.offsetTop !== window.pageYOffset)requestAnimationFrame(scrollToPlay)
-    
-
+if (buttonPlay) {
+    buttonPlay.addEventListener('click', () => {
+        elementPlay.scrollIntoView(
+            {behavior: "smooth", block: "start", inline: "start"}
+        ) 
+    })    
 }
 
-const scrollToFantasy=()=>{
-    const step = 80;
-    if(elementFantasy.offsetTop < window.pageYOffset + step){  
-       document
-               .documentElement
-               .scrollTo(0,element.offsetTop );
-    }else{
-       document
-               .documentElement
-               .scrollTo(0,window.pageYOffset+step);
-    }
-    if(elementFantasy.offsetTop !== window.pageYOffset)requestAnimationFrame(scrollToFantasy)
-    
-
-}
-
-const scrollToFaq=()=>{
-    const step = 100;
-    if(elementFaq.offsetTop < window.pageYOffset + step){  
-       document
-               .documentElement
-               .scrollTo(0,element.offsetTop );
-    }else{
-       document
-               .documentElement
-               .scrollTo(0,window.pageYOffset+step);
-    }
-    if(elementFaq.offsetTop !== window.pageYOffset)requestAnimationFrame(scrollToFaq)
-    
-
-}
-
-const scrollToContact=()=>{
-    const step = 100;
-    if(elementContact.offsetTop < window.pageYOffset + step){  
-       document
-               .documentElement
-               .scrollTo(0,element.offsetTop );
-    }else{
-       document
-               .documentElement
-               .scrollTo(0,window.pageYOffset+step);
-    }
-    if(elementContact.offsetTop !== window.pageYOffset)requestAnimationFrame(scrollToContact)
-    
-
+if (buttonFantasy) {
+        buttonFantasy.addEventListener('click', () => {
+            elementFantasy.scrollIntoView(
+                {behavior: "smooth", block: "start", inline: "start"}
+            ) 
+        })
 }
 
 
-buttonAbout.addEventListener("click",scrollToAbout);
-buttonPlay.addEventListener("click",scrollToPlay);
-buttonFantasy.addEventListener("click",scrollToFantasy);
-buttonFaq.addEventListener("click",scrollToFaq);
-buttonContact.addEventListener("click",scrollToContact);
+if (buttonFaq) {
+        buttonFaq.addEventListener('click', () => {
+            elementFaq.scrollIntoView(
+                {behavior: "smooth", block: "start", inline: "start"}
+            ) 
+        })
+}
+
+
+if (buttonContact) {
+        buttonContact.addEventListener('click', () => {
+            elementContact.scrollIntoView(
+                {behavior: "smooth", block: "start", inline: "start"}
+            ) 
+        })
+}
