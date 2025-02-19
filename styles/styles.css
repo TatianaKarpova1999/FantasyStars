@@ -646,7 +646,7 @@ ul {
 .container {
     width: 100%;
     max-width: 1500px;
-    padding-left: 40px;
+    padding-left: 20px;
     padding-right: 20px;
 }
 
@@ -1185,7 +1185,7 @@ ul {
 }
 
 .blog-thumb {
-    aspect-ratio: 206 / 205;
+
     background-color: transparent;
     position: relative;
     display: flex;
@@ -2350,6 +2350,19 @@ label {
         }
     }
 
+    .blog-list {
+        grid-template-columns: 1fr;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .blog-thumb {
+        row-gap: 40px;
+
+        img {
+            margin-bottom: 0;
+        }
+    }
 
     .index-work {
         & .teams-list {
@@ -2488,6 +2501,10 @@ label {
     .service-outer {
         grid-row-gap: 30px;
         flex-flow: column;
+    }
+
+    .service-list.col-1 {
+        grid-template-columns: 1fr;
     }
 
     .service-left {
