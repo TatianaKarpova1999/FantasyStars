@@ -869,6 +869,13 @@ ul {
 .hero-section {
     padding-top: 50px;
     padding-bottom: 50px;
+
+    &.blog-section {
+        background-image: linear-gradient(#00000086, #00000069), url("../images/blog-bg.jpg");
+        background-position: 0 0, 50%;
+        background-repeat: repeat, no-repeat;
+        background-size: auto, cover;
+    }
 }
 
 .index-work {
