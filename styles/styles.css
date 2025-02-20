@@ -653,8 +653,8 @@ ul {
 .navbar {
     border-bottom: 1px solid var(--border);
     background: #fff;
-    padding-top: 20px;
-    padding-bottom: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     position: fixed;
     right: 0;
     left: 0;
@@ -2115,7 +2115,7 @@ label {
             position: absolute;
             width: 100%;
             left: 0;
-            top: 112px;
+            top: 92px;
             background-color: #fff;
         }
     }

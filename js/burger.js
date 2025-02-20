@@ -4,6 +4,7 @@ const body = document.querySelector('body');
 const link = document.querySelectorAll('.menu-item')
 const header = document.querySelector('header');
 const overlay = document.querySelector('.w-nav-overlay')
+const navInner = document.querySelector('.nav-menu-inner');
 
 function interactiveMenu() {
     if (btn) {
@@ -14,7 +15,7 @@ function interactiveMenu() {
 
 document.addEventListener("click", (e) =>
     {
-      if (!header.contains(e.target))
+      if (!header.contains(e.target) || navInner.contains(e.target))
       {
         nav.classList.remove('active');
         body.classList.remove('not-scroll');
