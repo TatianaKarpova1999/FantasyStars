@@ -655,6 +655,9 @@ ul {
     background: #fff;
     padding-top: 20px;
     padding-bottom: 16px;
+    position: fixed;
+    right: 0;
+    left: 0;
 }
 
 
