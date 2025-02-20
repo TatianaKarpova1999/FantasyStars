@@ -986,7 +986,7 @@ ul {
 }
 
 .footer-link:hover {
-    color: var(--grey);
+    opacity: 0.6;
 }
 
 .footer-right {
@@ -2085,7 +2085,7 @@ label {
 }
 
 .bottom-link:hover {
-    color: var(--grey);
+    opacity: 0.6;
 }
 
 @media screen and (max-width: 991px) {
@@ -2277,6 +2277,7 @@ label {
     .about-inner {
         grid-column-gap: 20px;
         grid-row-gap: 20px;
+        max-width: 100%;
     }
 
     .about-wrap {
@@ -2413,6 +2414,7 @@ label {
         grid-row-gap: 30px;
         flex-flow: column;
         align-items: stretch;
+        margin-top: 100px;
 
     }
 
